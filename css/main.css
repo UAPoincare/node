@@ -1,0 +1,200 @@
+body {
+	font-size: 16px;
+	min-width: 320px;
+	width: 100%;
+	font-family: "FuturaPT-Light", sans-serif;
+	overflow-x: hidden;
+}
+h1 {
+	font-family: "FuturaPT-Book", sans-serif;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+}
+.hidden {
+	display: none;
+}
+.top_line {
+	background-color: #276ac1;
+	height: 70px;
+}
+.top_line img {
+	margin: 11px 0;
+}
+.main_mnu ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+.main_mnu li{
+	display: inline-block
+}
+.main_mnu a {
+	color: #fff;
+	vertical-align: middle;
+	line-height: 70px;
+	text-decoration: none;
+	font-size: 24px;
+	padding-left: 10px;
+}
+
+.main_mnu a:hover {
+	color: #1d2a32;
+	transition: all 0.5s;
+}
+.slider_element {
+	position: relative;
+}
+.slider_element img {
+	width: 100%;
+}
+.text_slider {
+	position: absolute;
+	bottom: 40px;
+	left: 250px;
+	z-index: 10;
+	color: #fff;
+}
+.lSPager .lSpg {
+	margin: -35px 0 10px;
+}
+.text_slider p {
+	font-size: 25px;
+	margin: 0 0 10px;
+}
+.button {
+	height: 30px;
+	background-color: #777d83;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 0 20px;
+	margin-top: 15px;
+}
+
+
+.about_products {
+	padding: 0 150px;
+}
+
+.about_products p{
+	font-size: 25px;
+	color: #6b6f7e;
+	margin-top: 0;
+
+}
+.about_products h2 {
+	font-size: 35px;
+	color: #041439;
+	font-family: "FuturaPT-Book", sans-serif;
+	margin-bottom: -5px;
+}
+.about {
+	margin-bottom: 40px;
+	display: inline-block;
+}
+.news {
+	padding: 0;
+}
+.news_all {
+	width: 100%;
+}
+.news_detail {
+	background-color: #d4e1f3;
+	height: 100px;
+}
+.news_detail h3 {
+	padding: 0 5px;
+	margin: 0;
+}
+.news_detail p {
+	padding: 0 5px;
+	margin: 0;
+	line-height: 0.9em;
+}
+
+.news_date {
+	height: 100px;
+	width: 100px;
+	background-color: #276ac1;
+}
+.news_date p {
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	padding: 15px 0;
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 0.9em;
+}
+.news_date span {
+	font-size: 50px;
+	line-height: 1.2em;
+	padding: 0 20px;
+}
+.news_container {
+	padding: 0 7px;
+
+}
+
+/*  Flexbox CSS Styling  */
+
+.flex-container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: top;
+	/*align-content: center;*/
+}
+
+.flex-element {
+	order: 0;
+	flex-grow: 0;
+	flex-shrink:1;
+	flex-basis: auto;
+	align-self: auto;
+}
+footer {
+	background-color: #276ac1;
+	margin-top: 35px;
+
+}
+.main_footer ul {
+	padding: 0;
+	margin: 0;
+}
+.main_footer li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.main_footer a {
+	color: #f3f6fa;
+	font-size: 18px;
+}
+.main_footer h4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #fefefe;
+	margin-bottom: 10px;
+}
+.footer_elements {
+	padding: 0 20px;
+}
+.bottom_line {
+	font-size: 14px;
+	color: #f3f6fa;
+}
+.social {
+	float: right;
+
+}
+.social a {
+	color: #f3f6fa;
+}
+.social i {
+	padding: 0 5px;
+	font-size: 20px;
+	bottom: 0;
+}
